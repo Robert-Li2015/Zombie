@@ -1,0 +1,44 @@
+body {
+    background-color:teal;
+    cursor: crosshair;
+  }
+ 
+
+  #score{
+            padding: 10px;
+            font:300%/1 Rockwell,serif;
+            color: #ffc;
+            transition: 1s;
+  }
+
+  button{
+    
+    position: absolute;
+    left: 20;
+    top: 80;
+    transition: 1s;
+
+  border-radius: 30px;
+  border: 1px solid #8F9092;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
+}
+
+#resetButton:hover{
+    background-color: rgb(178, 212, 245);
+    transition: 0.5s;
+}
+#startButton:hover{
+    background-color: rgb(167, 247, 165);
+    transition: 0.5s;
+}
+
+  #ghost {
+    width: 60px;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    }
